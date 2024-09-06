@@ -8,20 +8,10 @@ export const Page = () => {
 
   return (
     <article>
-      <Header
-        user={user}
-        onLogin={() => setUser({ name: 'Jane Doe' })}
-        onLogout={() => setUser(undefined)}
-        onCreateAccount={() => setUser({ name: 'Jane Doe' })}
-      />
 
       <section className="storybook-page">
         <h2>Pages in Storybook</h2>
         <p>
-          We recommend building UIs with a{' '}
-          <a href="https://componentdriven.org" target="_blank" rel="noopener noreferrer">
-            <strong>component-driven</strong>
-          </a>{' '}
           process starting with atomic components and ending with pages.
         </p>
         <p>
